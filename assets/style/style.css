@@ -1,0 +1,54 @@
+.contact {
+    border: solid;
+    border-color: black;
+    height: 35rem;
+    background-color: #e7bc87;
+}
+#message {
+    resize: none;
+    background-color: #655544;
+    border-radius: 5px;
+    border: solid 1px black;
+    color: white;
+    max-height: 200px;
+}
+#message:hover {
+    border-color: white;
+}
+.content {
+    height: 50rem;
+    background-color: black;
+}
+form {
+    margin: auto;
+    max-width: 1rem;
+}
+.footer {
+    background-color: black;
+}
+#fname, #lname, #email, #phone {
+    background-color: #655544;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #909090;
+}
+#fname:hover, #lname:hover, #email:hover, #phone:hover {
+    border-color: white;
+}
+#send {
+    background-color: #ac7241;
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin: auto;
+    margin-top: 5px;
+    max-width: 100px;
+}
+.footerPath a:before{
+    content: "|";
+}
+#firstPath:before{
+    content: none;
+}
