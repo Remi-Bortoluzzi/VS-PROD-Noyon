@@ -2,12 +2,122 @@
     width: 26rem;
     height: 26rem;
     border-radius: 1%;
-}
-.imageCarousel{
-	filter: grayscale(100%);
+    filter: grayscale(100%);
     transition: .3s ease-in-out;
 }
 .imageCarousel:hover{
     filter: grayscale(0);
     transform: scale(1.05);
+    border-radius: 1%;
+}
+.embed-responsive{
+    position: relative;
+    z-index: 2;
+    margin-left: 8%;
+    height: 84%;
+    width: 84%;
+    object-fit: contain;
+}
+.nav {
+    background-color: transparent;
+}
+.logo {
+    z-index: 5;
+    position: absolute;
+    left: 5%;
+    bottom: 22%;
+    width: 20%;
+    opacity: 0.7;
+}
+
+/* body "Mehdi" */
+
+.presentation2{
+    padding-top: 3rem;
+}
+.mainContent{
+    background-color: #e7bc87;
+}
+.newAlbum{
+    animation: Test 1s infinite;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 6rem;
+}
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.spotify{
+    margin-top: 5rem;
+}
+#album{
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 3rem;
+}
+p{
+    font-size: 18px;
+}
+
+/* FOOTER */
+.contact {
+    border: solid;
+    border-color: black;
+    background-color: #e7bc87;
+}
+#message {
+    resize: none;
+    background-color: #655544;
+    border-radius: 5px;
+    border: solid 1px black;
+    color: white;
+    max-height: 200px;
+}
+#message:hover {
+    border-color: white;
+}
+.content {
+    height: 50rem;
+    background-color: black;
+}
+form {
+    margin: auto;
+    max-width: 1rem;
+}
+.footer {
+    background-color: black;
+    height: 15rem;
+}
+#fname, #lname, #email, #phone {
+    background-color: #655544;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #909090;
+}
+#fname:hover, #lname:hover, #email:hover, #phone:hover {
+    border-color: white;
+}
+#send {
+    background-color: #ac7241;
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin: auto;
+    margin-top: 5px;
+    max-width: 100px;
+}
+.footerPath a:before{
+    content: "|";
+}
+#firstPath:before{
+    content: none;
 }
