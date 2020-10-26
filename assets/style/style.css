@@ -1,0 +1,36 @@
+
+/* body "Mehdi" */
+
+.presentation2{
+    padding-top: 3rem;
+}
+.container-fluid{
+    background-color: #e7bc87;
+}
+.newAlbum{
+    animation: Test 1s infinite;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 6rem;
+}
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.spotify{
+    margin-top: 5rem;
+}
+#album{
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 3rem;
+}
+p{
+    font-size: 18px;
+}
