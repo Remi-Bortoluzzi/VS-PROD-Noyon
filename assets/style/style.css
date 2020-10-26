@@ -1,0 +1,19 @@
+.embed-responsive {
+    position: relative;
+    z-index: 2;
+    margin-left: 8%;
+    height: 84%;
+    width: 84%;
+    object-fit: contain;
+}
+.nav {
+    background-color: transparent;
+}
+.logo {
+    z-index: 5;
+    position: absolute;
+    left: 5%;
+    bottom: 22%;
+    width: 20%;
+    opacity: 0.7;
+}
