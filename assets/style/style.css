@@ -1,0 +1,13 @@
+.imageCarousel{
+    width: 26rem;
+    height: 26rem;
+    border-radius: 1%;
+}
+.imageCarousel{
+	filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+.imageCarousel:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
