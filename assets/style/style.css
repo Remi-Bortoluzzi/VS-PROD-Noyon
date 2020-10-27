@@ -1,4 +1,3 @@
-
 .embed-responsive {
     position: relative;
     z-index: 2;
@@ -20,7 +19,9 @@
 }
 
 /* body "Mehdi" */
-
+body{
+    background-color: black;
+}
 .presentation2{
     padding-top: 3rem;
 }
@@ -57,8 +58,6 @@ p{
 
 /* FOOTER */
 .contact {
-    border: solid;
-    border-color: black;
     background-color: #e7bc87;
 }
 #message {
