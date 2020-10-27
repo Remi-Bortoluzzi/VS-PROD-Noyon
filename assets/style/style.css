@@ -28,9 +28,10 @@
     width: 20%;
     opacity: 0.7;
 }
-
 /* body "Mehdi" */
-
+body{
+    background-color: black;
+}
 .presentation2{
     padding-top: 3rem;
 }
@@ -67,11 +68,42 @@ p{
 .bloc1 {
     background-color: black;
 }
+/* Carousel */
+.carouselBackground{
+    background-color: #0d0d0d;
+}
+.imageCarousel{
+    width: 26rem;
+    height: 26rem;
+    border-radius: 1%;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+.imageCarousel:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    border-radius: 1%;
+}
+.artistSumup{
+    color: #d8bfd8;
+    font-family: 'Anton', sans-serif;
+}
+.artistName{
+    color: #ac7241;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2em;
+}
+.embed-responsive{
+    position: relative;
+    z-index: 2;
+    margin-left: 8%;
+    height: 84%;
+    width: 84%;
+    object-fit: contain;
+}
 
 /* FOOTER */
 .contact {
-    border: solid;
-    border-color: black;
     background-color: #e7bc87;
 }
 #message {
