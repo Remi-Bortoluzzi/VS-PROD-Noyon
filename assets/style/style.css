@@ -1,14 +1,34 @@
-.imageCarousel{
-    width: 26rem;
-    height: 26rem;
-    border-radius: 1%;
-    filter: grayscale(100%);
-    transition: .3s ease-in-out;
+body{
+    background-color: black;
 }
-.imageCarousel:hover{
-    filter: grayscale(0);
-    transform: scale(1.05);
-    border-radius: 1%;
+/* accueil */
+.bloc1 {
+    background-color: black;
+}
+
+.nav1 {
+    background-color: rgba(0, 0, 0, 0.603);
+    position: sticky;
+   z-index: 1000;
+}
+.textTop {
+  margin-right: 10%;
+  margin-left: 10%;
+    background-color: rgba(16,16,16, 0.3);
+}
+.body {
+    background-color: black;
+}
+.titleColor {
+    color:#ac7241; 
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+.subTitleBG {
+    float: right;
+    font-size: 60px;
+    padding-right: 150px;
+    margin-bottom: 10px;
 }
 .embed-responsive{
     position: relative;
@@ -42,10 +62,9 @@
 video {
     object-fit: contain;
 }
-/* body "Mehdi" */
-body{
-    background-color: black;
-}
+
+/* Présentation albums */
+
 .presentation2{
     padding-top: 3rem;
 }
@@ -78,13 +97,11 @@ body{
     box-shadow: 2px 2px 2px 2px black;
     margin-left: 3rem;
 }
+
+/* Présentation des artistes */
 p{
     font-size: 18px;
 }
-.bloc1 {
-    background-color: black;
-}
-/* Carousel */
 .carouselBackground{
     background-color: #0d0d0d;
 }
@@ -110,8 +127,8 @@ p{
     letter-spacing: 0.2em;
 }
 
+/* Contact + FOOTER */
 
-/* FOOTER */
 .contact {
     background-color: #e7bc87;
 }
@@ -167,31 +184,4 @@ form {
 }
 #firstPath:before{
     content: none;
-}
-.bloc1 {
-    background-color: black;
-}
-.nav1 {
-    background-color: rgba(0, 0, 0, 0.603);
-    position: sticky;
-   z-index: 1000;
-}
-.textTop {
-  margin-right: 10%;
-  margin-left: 10%;
-    background-color: rgba(16,16,16, 0.3);
-}
-.body {
-    background-color: black;
-}
-.titleColor {
-    color:#ac7241; 
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-}
-.subTitleBG {
-    float: right;
-    font-size: 60px;
-    padding-right: 150px;
-    margin-bottom: 10px;
 }
