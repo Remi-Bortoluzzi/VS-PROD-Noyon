@@ -1,4 +1,16 @@
-.embed-responsive {
+.imageCarousel{
+    width: 26rem;
+    height: 26rem;
+    border-radius: 1%;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+.imageCarousel:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    border-radius: 1%;
+}
+.embed-responsive{
     position: relative;
     z-index: 2;
     margin-left: 8%;
