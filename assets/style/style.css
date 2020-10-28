@@ -5,11 +5,13 @@ body{
 .bloc1 {
     background-color: black;
 }
-
 .nav1 {
     background-color: rgba(0, 0, 0, 0.603);
     position: sticky;
    z-index: 1000;
+}
+.titleIntro{
+    color:#ac7241; 
 }
 .textTop {
   margin-right: 10%;
@@ -62,9 +64,7 @@ body{
 video {
     object-fit: contain;
 }
-
 /* Présentation albums */
-
 .presentation2{
     padding-top: 3rem;
 }
@@ -97,7 +97,6 @@ video {
     box-shadow: 2px 2px 2px 2px black;
     margin-left: 3rem;
 }
-
 /* Présentation des artistes */
 p{
     font-size: 18px;
@@ -126,9 +125,7 @@ p{
     font-family: 'Roboto Slab', serif;
     letter-spacing: 0.2em;
 }
-
 /* Contact + FOOTER */
-
 .contact {
     background-color: #e7bc87;
 }
